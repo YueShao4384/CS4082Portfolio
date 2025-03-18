@@ -1,0 +1,95 @@
+body{
+    background-color: lemonchiffon;
+}
+.part{
+    font-family: 'Times New Roman', Times, serif;
+}
+.mediv{
+    text-align: justify;
+}
+.question{
+    font-size: 18px;
+    color: dodgerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+    width: 80%; 
+    max-width: 400px;
+    height: auto; 
+}
+table{
+    width: 100%;
+    text-align: center;
+    border: 10px double #adb;
+    margin: auto;
+    border-collapse: collapse;
+}
+table td {
+    border: 2px solid #adb;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.reflect{
+    font-size: 22px;
+    color: dodgerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hr-width {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.goalcontainer {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goals {
+    width: 40%;
+    margin: 0px 5px;
+    border: 2px solid #fcb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.imggoal {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px; 
+
+}
+
+.goalp{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.description {
+    text-align: center;
+    padding: 10px;
+}
+
+.processimg {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 460px) {
+    body {
+        background-color: white !important;
+    }
+}
+
